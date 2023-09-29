@@ -1,0 +1,17 @@
+Al descargar una imagen en formato svg, al aumentar su tamaño no se me va a pixelar. 
+la etiqueta span, es como una etiqueta comodin que nos ayuda a acomodar iconos dentro de ciertos tipo de textos o botones
+
+la etiqueta div, son estas etiquetas comodin, de apoyo, que nos ayuda a generar contenedores cuando semanticamente no tenemos una etiqueta que nos especifique donde estamos
+
+En la metodologia BEM el header se convierte en el bloque principal
+
+en las tablas, dentro de la etiqueta table, se colocan dos etiquetas mas:
+    1. tr => hace referencia a las filas de la tabla (row) =
+    2. td => hace referencia a los datos que va a contener la tabla, es decir a als columnas || (data)
+
+Se coloca __ para nombrar alguna clase, porque según la metodologia BEM cada que voy a tener un modificador especial tenemos que colocar el __ para poder diferenciar lo que es un bloque, elemento y modificador, en este caso es un modificador especial.
+
+Tener en cuenta que una tabla no es un contenedor completo, por eso se le generan diferentes clases de css para las 4 esquinas de la tabla. 
+
+- Position: Absolute => se utiliza por ejemplo para el logo de la papa que va en medio de dos contenedores. Entonces absolute lo que va a hacer es buscar al primer contenedor padre que tenga un position: relative para que se base ahí. 
+
